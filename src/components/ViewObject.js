@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import View from './Objects/View'
-import Loading from './Loading'
-import axios from 'axios'
+import View from './Objects/View';
+import Loading from './Loading';
+import axios from 'axios';
 
 function ViewObject(props) {
 	const ObjectLoading = Loading(View);

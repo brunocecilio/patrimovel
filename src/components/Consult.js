@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
-import QrReader from 'react-qr-reader'
+import QrReader from 'react-qr-reader';
 import { toast } from 'react-toastify';
-import axios from 'axios'
+import axios from 'axios';
 
 import 'react-toastify/dist/ReactToastify.css';
 

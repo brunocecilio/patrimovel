@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { Switch, Route } from "react-router-dom";
-
-import Home from './Home'
-import Consult from './Consult'
-import ListObjects from './ListObjects'
-import ViewObject from './ViewObject'
+import Home from './Home';
+import Consult from './Consult';
+import ListObjects from './ListObjects';
+import ViewObject from './ViewObject';
 
 function Container() {
   return (

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import List from './Objects/List'
-import Loading from './Loading'
-import axios from 'axios'
+import List from './Objects/List';
+import Loading from './Loading';
+import axios from 'axios';
 
 function ListObjects() {
   const ListLoading = Loading(List);

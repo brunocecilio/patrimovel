@@ -1,8 +1,6 @@
 import React from 'react';
 import '../App.css';
-
 import { Link } from "react-router-dom";
-
 import 'primereact/resources/themes/arya-green/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
