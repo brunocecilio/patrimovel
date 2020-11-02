@@ -5,7 +5,6 @@ import { InputText } from 'primereact/inputtext';
 import QrReader from 'react-qr-reader';
 import { toast } from 'react-toastify';
 import axios from 'axios';
-
 import 'react-toastify/dist/ReactToastify.css';
 
 toast.configure();
@@ -36,7 +35,7 @@ class Consult extends Component{
 
 	searchObject = () => {
 		const objectApiUrl = 'https://my-json-server.typicode.com/brunocecilio/my-json-server-patrimovel/objeto/';
-		let objectCode = this.state.itemCode.replace(RegExp('[a-zA-Z]*'), '')
+		let objectCode = this.state.itemCode.replace(RegExp('[a-zA-Z]*'), '');
 		if(objectCode)
 		{
 			axios.get(objectApiUrl + objectCode)
