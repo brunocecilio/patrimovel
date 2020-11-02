@@ -1,0 +1,176 @@
+body {
+	background-color: #25262e;
+}
+
+Router {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(131,190,49);
+}
+
+.object-label {
+	color: white;
+	font-size: 16pt;
+}
+
+.object-id {
+	color: white;
+	font-size: 16pt;
+}
+
+.object-description {
+	color: white;
+	font-size: 16pt;
+}
+
+.object-local {
+	color: white;
+	font-size: 16pt;
+}
+
+.message {
+	color: white;
+}
+
+.objectCardList {
+	list-style-type: none;
+	color: white;
+	width: 100px;
+}
+
+.objects-container {
+	margin: 10px;
+}
+
+.qrScanner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.qrIcon {
+	width: 150px !important;
+	height: 100px !important;
+}
+
+.qrIcon .pi {
+	font-size: 2em !important;
+}
+
+.App-logo {
+	height: 100px;
+	pointer-events: none;
+}
+
+.App-Logo {
+	height: 80px;
+	pointer-events: none;
+	margin: 10px;
+}
+
+.text-background {
+	background: rgba(0,0,0, 170);
+	display: flex;
+	color: white;
+	height: 3rem;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	font-size: 18pt;
+	margin-bottom: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #1e1e1e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-body {
+ 	background-color: #25262e;
+	margin-block-start: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.Header-user-bar {
+	background: rgb(131,190,49);
+	background: radial-gradient(circle, rgba(131,190,49,1) 0%, rgba(102,146,47,1) 100%);
+	display: flex;
+	color: #1a1a1a;
+	height: 3rem;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.Header-user-bar i,
+.Header-user-bar span {
+	size: 300px;
+	margin-right: 15px;
+}
+
+.menuItem {
+	width: 400px;
+	height: 100px;
+	background: #207028 !important;
+	border-color: #114126 !important;
+}
+
+.altButton {
+	background: rgba(0,0,0, 170) !important;
+	border-color: rgba(0,0,0, 200) !important;
+}
+
+.altButton .p-button-label {
+	color: white;
+}
+
+.altButton .pi {
+	font-size: 1em;
+	color: white;
+}
+
+.textLabel {
+	color: white;
+	font-size: calc(10px + 1.5vmin);
+}
+
+.menuItem .p-button-label {
+	color: white;
+}
+
+.menuItem .pi {
+	font-size: 2em;
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+	transform: rotate(360deg);
+	}
+}
